@@ -1,0 +1,1002 @@
+{
+  "code": "SILVER-FLEX-22-11-25",
+  "full_name": "Octopus Tracker November 2022 v1",
+  "display_name": "Octopus Tracker",
+  "description": "Tracker gives you the most transparent energy pricing in the UK. Every day, we update the price of your energy based on an independently published wholesale market price.  The unit rate is capped at 100p/kWh for electricity and 30p/kWh for gas (including VAT).",
+  "is_variable": true,
+  "is_green": false,
+  "is_tracker": true,
+  "is_prepay": false,
+  "is_business": false,
+  "is_restricted": true,
+  "term": null,
+  "available_from": "2022-11-25T00:00:00Z",
+  "available_to": null,
+  "tariffs_active_at": "2023-02-21T19:28:09.303998Z",
+  "single_register_electricity_tariffs": {
+    "_A": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-A",
+        "standing_charge_exc_vat": 35.52,
+        "standing_charge_inc_vat": 37.296,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-A/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-A/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.21,
+        "standard_unit_rate_inc_vat": 24.3705
+      }
+    },
+    "_B": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-B",
+        "standing_charge_exc_vat": 42.02,
+        "standing_charge_inc_vat": 44.121,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-B/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-B/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.02,
+        "standard_unit_rate_inc_vat": 24.171
+      }
+    },
+    "_C": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-C",
+        "standing_charge_exc_vat": 30.01,
+        "standing_charge_inc_vat": 31.5105,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-C/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-C/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 22.74,
+        "standard_unit_rate_inc_vat": 23.877
+      }
+    },
+    "_D": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-D",
+        "standing_charge_exc_vat": 44.72,
+        "standing_charge_inc_vat": 46.956,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-D/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-D/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 24.35,
+        "standard_unit_rate_inc_vat": 25.5675
+      }
+    },
+    "_E": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-E",
+        "standing_charge_exc_vat": 45.24,
+        "standing_charge_inc_vat": 47.502,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-E/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-E/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.07,
+        "standard_unit_rate_inc_vat": 24.2235
+      }
+    },
+    "_F": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-F",
+        "standing_charge_exc_vat": 45.99,
+        "standing_charge_inc_vat": 48.2895,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-F/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-F/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.08,
+        "standard_unit_rate_inc_vat": 24.234
+      }
+    },
+    "_G": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-G",
+        "standing_charge_exc_vat": 39.63,
+        "standing_charge_inc_vat": 41.6115,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-G/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-G/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.22,
+        "standard_unit_rate_inc_vat": 24.381
+      }
+    },
+    "_H": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-H",
+        "standing_charge_exc_vat": 40.73,
+        "standing_charge_inc_vat": 42.7665,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-H/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-H/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.2,
+        "standard_unit_rate_inc_vat": 24.36
+      }
+    },
+    "_J": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-J",
+        "standing_charge_exc_vat": 39.08,
+        "standing_charge_inc_vat": 41.034,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-J/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-J/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.44,
+        "standard_unit_rate_inc_vat": 24.612
+      }
+    },
+    "_K": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-K",
+        "standing_charge_exc_vat": 45.26,
+        "standing_charge_inc_vat": 47.523,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-K/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-K/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.58,
+        "standard_unit_rate_inc_vat": 24.759
+      }
+    },
+    "_L": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-L",
+        "standing_charge_exc_vat": 48.57,
+        "standing_charge_inc_vat": 50.9985,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-L/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-L/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 24.07,
+        "standard_unit_rate_inc_vat": 25.2735
+      }
+    },
+    "_M": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-M",
+        "standing_charge_exc_vat": 45.62,
+        "standing_charge_inc_vat": 47.901,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-M/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-M/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 22.84,
+        "standard_unit_rate_inc_vat": 23.982
+      }
+    },
+    "_N": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-N",
+        "standing_charge_exc_vat": 46.69,
+        "standing_charge_inc_vat": 49.0245,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-N/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-N/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.08,
+        "standard_unit_rate_inc_vat": 24.234
+      }
+    },
+    "_P": {
+      "direct_debit_monthly": {
+        "code": "E-1R-SILVER-FLEX-22-11-25-P",
+        "standing_charge_exc_vat": 47.08,
+        "standing_charge_inc_vat": 49.434,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-P/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/electricity-tariffs/E-1R-SILVER-FLEX-22-11-25-P/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 23.92,
+        "standard_unit_rate_inc_vat": 25.116
+      }
+    }
+  },
+  "dual_register_electricity_tariffs": {
+  },
+  "single_register_gas_tariffs": {
+    "_A": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-A",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-A/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-A/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.53,
+        "standard_unit_rate_inc_vat": 5.8065
+      }
+    },
+    "_B": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-B",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-B/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-B/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.51,
+        "standard_unit_rate_inc_vat": 5.7855
+      }
+    },
+    "_C": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-C",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-C/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-C/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.7,
+        "standard_unit_rate_inc_vat": 5.985
+      }
+    },
+    "_D": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-D",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-D/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-D/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.63,
+        "standard_unit_rate_inc_vat": 5.9115
+      }
+    },
+    "_E": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-E",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-E/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-E/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.6,
+        "standard_unit_rate_inc_vat": 5.88
+      }
+    },
+    "_F": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-F",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-F/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-F/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.55,
+        "standard_unit_rate_inc_vat": 5.8275
+      }
+    },
+    "_G": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-G",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-G/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-G/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.62,
+        "standard_unit_rate_inc_vat": 5.901
+      }
+    },
+    "_H": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-H",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-H/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-H/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.71,
+        "standard_unit_rate_inc_vat": 5.9955
+      }
+    },
+    "_J": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-J",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-J/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-J/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.71,
+        "standard_unit_rate_inc_vat": 5.9955
+      }
+    },
+    "_K": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-K",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-K/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-K/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.61,
+        "standard_unit_rate_inc_vat": 5.8905
+      }
+    },
+    "_L": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-L",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-L/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-L/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.71,
+        "standard_unit_rate_inc_vat": 5.9955
+      }
+    },
+    "_M": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-M",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-M/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-M/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.56,
+        "standard_unit_rate_inc_vat": 5.838
+      }
+    },
+    "_N": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-N",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-N/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-N/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.56,
+        "standard_unit_rate_inc_vat": 5.838
+      }
+    },
+    "_P": {
+      "direct_debit_monthly": {
+        "code": "G-1R-SILVER-FLEX-22-11-25-P",
+        "standing_charge_exc_vat": 25.56,
+        "standing_charge_inc_vat": 26.838,
+        "online_discount_exc_vat": 0,
+        "online_discount_inc_vat": 0,
+        "dual_fuel_discount_exc_vat": 0,
+        "dual_fuel_discount_inc_vat": 0,
+        "exit_fees_exc_vat": 0,
+        "exit_fees_inc_vat": 0,
+        "exit_fees_type": "NONE",
+        "links": [
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-P/standing-charges/",
+            "method": "GET",
+            "rel": "standing_charges"
+          },
+          {
+            "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/gas-tariffs/G-1R-SILVER-FLEX-22-11-25-P/standard-unit-rates/",
+            "method": "GET",
+            "rel": "standard_unit_rates"
+          }
+        ],
+        "standard_unit_rate_exc_vat": 5.56,
+        "standard_unit_rate_inc_vat": 5.838
+      }
+    }
+  },
+  "sample_quotes": {
+    "_A": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 84287,
+          "annual_cost_exc_vat": 80274
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 163761,
+          "annual_cost_exc_vat": 155963
+        }
+      }
+    },
+    "_B": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 86200,
+          "annual_cost_exc_vat": 82095
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 165422,
+          "annual_cost_exc_vat": 157545
+        }
+      }
+    },
+    "_C": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 80745,
+          "annual_cost_exc_vat": 76900
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 162361,
+          "annual_cost_exc_vat": 154629
+        }
+      }
+    },
+    "_D": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 91285,
+          "annual_cost_exc_vat": 86938
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 172019,
+          "annual_cost_exc_vat": 163827
+        }
+      }
+    },
+    "_E": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 87586,
+          "annual_cost_exc_vat": 83416
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 167942,
+          "annual_cost_exc_vat": 159945
+        }
+      }
+    },
+    "_F": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 87904,
+          "annual_cost_exc_vat": 83718
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 167630,
+          "annual_cost_exc_vat": 159648
+        }
+      }
+    },
+    "_G": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 85893,
+          "annual_cost_exc_vat": 81803
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 166501,
+          "annual_cost_exc_vat": 158572
+        }
+      }
+    },
+    "_H": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 86254,
+          "annual_cost_exc_vat": 82146
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 167996,
+          "annual_cost_exc_vat": 159996
+        }
+      }
+    },
+    "_J": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 86352,
+          "annual_cost_exc_vat": 82240
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 168094,
+          "annual_cost_exc_vat": 160090
+        }
+      }
+    },
+    "_K": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 89147,
+          "annual_cost_exc_vat": 84902
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 169629,
+          "annual_cost_exc_vat": 161551
+        }
+      }
+    },
+    "_L": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 91908,
+          "annual_cost_exc_vat": 87531
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 173649,
+          "annual_cost_exc_vat": 165380
+        }
+      }
+    },
+    "_M": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 87032,
+          "annual_cost_exc_vat": 82887
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 166884,
+          "annual_cost_exc_vat": 158937
+        }
+      }
+    },
+    "_N": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 88173,
+          "annual_cost_exc_vat": 83974
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 168024,
+          "annual_cost_exc_vat": 160023
+        }
+      }
+    },
+    "_P": {
+      "direct_debit_monthly": {
+        "electricity_single_rate": {
+          "annual_cost_inc_vat": 90880,
+          "annual_cost_exc_vat": 86552
+        },
+        "dual_fuel_single_rate": {
+          "annual_cost_inc_vat": 170732,
+          "annual_cost_exc_vat": 162602
+        }
+      }
+    }
+  },
+  "sample_consumption": {
+    "electricity_single_rate": {
+      "electricity_standard": 2900
+    },
+    "electricity_dual_rate": {
+      "electricity_day": 2436,
+      "electricity_night": 1764
+    },
+    "dual_fuel_single_rate": {
+      "electricity_standard": 2900,
+      "gas_standard": 12000
+    },
+    "dual_fuel_dual_rate": {
+      "electricity_day": 2436,
+      "electricity_night": 1764,
+      "gas_standard": 12000
+    }
+  },
+  "links": [
+    {
+      "href": "https://api.octopus.energy/v1/products/SILVER-FLEX-22-11-25/",
+      "method": "GET",
+      "rel": "self"
+    }
+  ],
+  "brand": "OCTOPUS_ENERGY"
+}

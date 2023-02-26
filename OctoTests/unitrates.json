@@ -1,0 +1,756 @@
+{
+  "periods": [
+    {
+      "date": "2023-02-01",
+      "market_index": 50.38275,
+      "cost": 26.872494094158903,
+      "standing_charge": 26.838,
+      "unit_rate": 6.972,
+      "usage": 0.004947517808219178,
+      "unit_charge": 0.03449409415890411,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.0235,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5045,
+          "VAT": 0.332
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-02",
+      "market_index": 51.5251,
+      "cost": 26.873041581419177,
+      "standing_charge": 26.838,
+      "unit_rate": 7.098,
+      "usage": 0.004936824657534247,
+      "unit_charge": 0.03504158141917808,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.1374,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5106,
+          "VAT": 0.338
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-03",
+      "market_index": 48.26855,
+      "cost": 26.87143048431781,
+      "standing_charge": 26.838,
+      "unit_rate": 6.741,
+      "usage": 0.0049592767123287675,
+      "unit_charge": 0.03343048431780822,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.8127,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4953,
+          "VAT": 0.321
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-04",
+      "market_index": 52.2071,
+      "cost": 26.87394495300411,
+      "standing_charge": 26.838,
+      "unit_rate": 7.1715,
+      "usage": 0.005012194520547945,
+      "unit_charge": 0.03594495300410959,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.2054,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5126,
+          "VAT": 0.3415
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-05",
+      "market_index": 52.2071,
+      "cost": 26.873607145882193,
+      "standing_charge": 26.838,
+      "unit_rate": 7.1715,
+      "usage": 0.004965090410958904,
+      "unit_charge": 0.035607145882191785,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.2054,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5126,
+          "VAT": 0.3415
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-06",
+      "market_index": 52.2071,
+      "cost": 26.873506685938356,
+      "standing_charge": 26.838,
+      "unit_rate": 7.1715,
+      "usage": 0.004951082191780822,
+      "unit_charge": 0.03550668593835617,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.2054,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5126,
+          "VAT": 0.3415
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-07",
+      "market_index": 51.67855,
+      "cost": 26.87334823400548,
+      "standing_charge": 26.838,
+      "unit_rate": 7.119,
+      "usage": 0.0049653369863013695,
+      "unit_charge": 0.03534823400547945,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 5.1527,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.5153,
+          "VAT": 0.339
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-08",
+      "market_index": 48.26855,
+      "cost": 26.87156742819452,
+      "standing_charge": 26.838,
+      "unit_rate": 6.741,
+      "usage": 0.004979591780821918,
+      "unit_charge": 0.03356742819452055,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.8127,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4953,
+          "VAT": 0.321
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-09",
+      "market_index": 46.7511,
+      "cost": 26.870801142854795,
+      "standing_charge": 26.838,
+      "unit_rate": 6.573,
+      "usage": 0.004990284931506849,
+      "unit_charge": 0.032801142854794525,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.6614,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4866,
+          "VAT": 0.313
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-10",
+      "market_index": 45.0461,
+      "cost": 26.87009490410959,
+      "standing_charge": 26.838,
+      "unit_rate": 6.384,
+      "usage": 0.005027397260273973,
+      "unit_charge": 0.03209490410958904,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.4914,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4766,
+          "VAT": 0.304
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-11",
+      "market_index": 47.0921,
+      "cost": 26.87150958639863,
+      "standing_charge": 26.838,
+      "unit_rate": 6.6045,
+      "usage": 0.005073750684931507,
+      "unit_charge": 0.03350958639863014,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.6954,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4826,
+          "VAT": 0.3145
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-12",
+      "market_index": 47.0921,
+      "cost": 26.87102850738082,
+      "standing_charge": 26.838,
+      "unit_rate": 6.6045,
+      "usage": 0.005000909589041096,
+      "unit_charge": 0.03302850738082192,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.6954,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4826,
+          "VAT": 0.3145
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-13",
+      "market_index": 47.17735,
+      "cost": 26.87075140869863,
+      "standing_charge": 26.838,
+      "unit_rate": 6.615,
+      "usage": 0.004951082191780822,
+      "unit_charge": 0.032751408698630136,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.7039,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4841,
+          "VAT": 0.315
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-14",
+      "market_index": 44.34705,
+      "cost": 26.869034645753423,
+      "standing_charge": 26.838,
+      "unit_rate": 6.3,
+      "usage": 0.004926134246575342,
+      "unit_charge": 0.03103464575342466,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.4217,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4663,
+          "VAT": 0.3
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-15",
+      "market_index": 44.85855,
+      "cost": 26.869118225350686,
+      "standing_charge": 26.838,
+      "unit_rate": 6.363,
+      "usage": 0.004890495890410959,
+      "unit_charge": 0.031118225350684932,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.4727,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4753,
+          "VAT": 0.303
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-16",
+      "market_index": 46.4101,
+      "cost": 26.86980017261918,
+      "standing_charge": 26.838,
+      "unit_rate": 6.531,
+      "usage": 0.004869112328767123,
+      "unit_charge": 0.03180017261917808,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.6274,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4806,
+          "VAT": 0.311
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-17",
+      "market_index": 42.3181,
+      "cost": 26.86771398098219,
+      "standing_charge": 26.838,
+      "unit_rate": 6.0795,
+      "usage": 0.004887569863013699,
+      "unit_charge": 0.029713980982191784,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.2194,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4586,
+          "VAT": 0.2895
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-18",
+      "market_index": 40.42555,
+      "cost": 26.866866490454793,
+      "standing_charge": 26.838,
+      "unit_rate": 5.8695,
+      "usage": 0.004918049315068493,
+      "unit_charge": 0.02886649045479452,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.0307,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4473,
+          "VAT": 0.2795
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-19",
+      "market_index": 40.42555,
+      "cost": 26.86636475273014,
+      "standing_charge": 26.838,
+      "unit_rate": 5.8695,
+      "usage": 0.004832567123287671,
+      "unit_charge": 0.028364752730136986,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.0307,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4473,
+          "VAT": 0.2795
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-20",
+      "market_index": 40.6131,
+      "cost": 26.866240638558903,
+      "standing_charge": 26.838,
+      "unit_rate": 5.8905,
+      "usage": 0.004794268493150685,
+      "unit_charge": 0.028240638558904112,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.0494,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4486,
+          "VAT": 0.2805
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-21",
+      "market_index": 41.6361,
+      "cost": 26.866573107509588,
+      "standing_charge": 26.838,
+      "unit_rate": 5.9955,
+      "usage": 0.004765758904109589,
+      "unit_charge": 0.02857310750958904,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 4.1514,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.4466,
+          "VAT": 0.2855
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-22",
+      "market_index": 127.14185,
+      "cost": 26.911312902945205,
+      "standing_charge": 26.838,
+      "unit_rate": 15.4875,
+      "usage": 0.004733682191780822,
+      "unit_charge": 0.07331290294520547,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.6769,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9611,
+          "VAT": 0.7375
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-23",
+      "market_index": 127.14185,
+      "cost": 26.910981767465753,
+      "standing_charge": 26.838,
+      "unit_rate": 15.4875,
+      "usage": 0.004712301369863014,
+      "unit_charge": 0.07298176746575342,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.6769,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9611,
+          "VAT": 0.7375
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-24",
+      "market_index": 127.14185,
+      "cost": 26.91125307452055,
+      "standing_charge": 26.838,
+      "unit_rate": 15.4875,
+      "usage": 0.004729819178082192,
+      "unit_charge": 0.07325307452054794,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.6769,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9611,
+          "VAT": 0.7375
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-25",
+      "market_index": 126.2382,
+      "cost": 26.91119540190411,
+      "standing_charge": 26.838,
+      "unit_rate": 15.393,
+      "usage": 0.004755109589041096,
+      "unit_charge": 0.0731954019041096,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.5868,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9612,
+          "VAT": 0.733
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-26",
+      "market_index": 126.2382,
+      "cost": 26.91012725422192,
+      "standing_charge": 26.838,
+      "unit_rate": 15.393,
+      "usage": 0.004685717808219178,
+      "unit_charge": 0.0721272542219178,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.5868,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9612,
+          "VAT": 0.733
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-27",
+      "market_index": 127.14185,
+      "cost": 26.90932587791096,
+      "standing_charge": 26.838,
+      "unit_rate": 15.4875,
+      "usage": 0.004605383561643836,
+      "unit_charge": 0.0713258779109589,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.6769,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9611,
+          "VAT": 0.7375
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    },
+    {
+      "date": "2023-02-28",
+      "market_index": 127.14185,
+      "cost": 26.909160267739725,
+      "standing_charge": 26.838,
+      "unit_rate": 15.4875,
+      "usage": 0.004594690410958903,
+      "unit_charge": 0.07116026773972602,
+      "breakdown": {
+        "unit_charge": {
+          "Wholesale cost": 12.6769,
+          "Environmental & social obligations": 0.0,
+          "Delivery & networks": 1.112,
+          "100% green": 0.0,
+          "Administration, financing & margin": 0.9611,
+          "VAT": 0.7375
+        },
+        "standing_charge": {
+          "Metering": 10.838,
+          "Smart meter obligation": 3.33,
+          "Admin, customer service & margin": 11.392,
+          "VAT": 1.278
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_cost": 322.7071155169438,
+    "period_cost": [
+      26.872494094158903,
+      26.873041581419177,
+      26.87143048431781,
+      26.87394495300411,
+      26.873607145882193,
+      26.873506685938356,
+      26.87334823400548,
+      26.87156742819452,
+      26.870801142854795,
+      26.87009490410959,
+      26.87150958639863,
+      26.87102850738082,
+      26.87075140869863,
+      26.869034645753423,
+      26.869118225350686,
+      26.86980017261918,
+      26.86771398098219,
+      26.866866490454793,
+      26.86636475273014,
+      26.866240638558903,
+      26.866573107509588,
+      26.911312902945205,
+      26.910981767465753,
+      26.91125307452055,
+      26.91119540190411,
+      26.91012725422192,
+      26.90932587791096,
+      26.909160267739725
+    ],
+    "colours": {
+      "unit_charge": {
+        "Wholesale cost": "#6C067A",
+        "Environmental & social obligations": "#007F6D",
+        "Delivery & networks": "#c37500",
+        "100% green": "#009E8D",
+        "Administration, financing & margin": "#AA287F",
+        "VAT": "#e99077"
+      },
+      "standing_charge": {
+        "Metering": "#6C067A",
+        "Smart meter obligation": "#009E8D",
+        "Admin, customer service & margin": "#AA287F",
+        "VAT": "#e99077"
+      }
+    },
+    "lowest_usage": 0.004594690410958903,
+    "highest_usage": 0.005073750684931507,
+    "average_usage": 0.004873607142857143
+  }
+}
