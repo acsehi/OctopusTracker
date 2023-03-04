@@ -21,9 +21,17 @@ int days = 0;
 
 foreach (var g in account.Gas.Consumption)
 {
-    gasCost += EnergyConverter.CubiCMeterTokwh(g.Value) * account.Gas.Tariff.Rates[g.Key];
-    gasCost_flex += EnergyConverter.CubiCMeterTokwh(g.Value) * 10.5;
-    days++;
+
+    if (account.Gas.Tariff.Rates.ContainsKey(g.Key))
+    {
+        gasCost += EnergyConverter.CubiCMeterTokwh(g.Value) * account.Gas.Tariff.Rates[g.Key];
+        gasCost_flex += EnergyConverter.CubiCMeterTokwh(g.Value) * 10.5;
+        days++;
+    }
+    else
+    {
+        Console.WriteLine(g.Key + " is dropped");
+    }
 }
 
 gasCost = gasCost / 100.0; // Pence to £
@@ -63,7 +71,7 @@ int allSavings = (int)((electricityCost_flex - electricityCost) + (gasCost_flex 
 
 Console.WriteLine($"All saving:£{allSavings}");
 
-account.ToCSV("consumption.tsv");
+account.ToCSV($"consumption-{DateTime.Now.Year}-{DateTime.Now.Month}.tsv");
 
 Console.ReadLine();
 

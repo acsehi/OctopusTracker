@@ -1,6 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.IO;
-using System.Security.Principal;
 
 namespace Octo
 {
@@ -29,8 +27,10 @@ namespace Octo
 
         public async Task<bool> LoadRates(IHttpClient client)
         {
-            this.Gas.Tariff = await Tariff.GetRates(client, this.Gas.Tariff.Code);
-            this.Electricity.Tariff = await Tariff.GetRates(client, this.Electricity.Tariff.Code);
+            // this.Gas.Tariff = new TrackerTariff(client, this.Gas.Tariff.Code, "gas.json");
+            // this.Electricity.Tariff = new TrackerTariff(client, this.Electricity.Tariff.Code, "electricity.json");
+            await this.Gas.Tariff.InitializeRates();
+            await this.Electricity.Tariff.InitializeRates();
 
             return true;
         }
@@ -91,7 +91,7 @@ namespace Octo
             {
                 if (e.valid_to == null)
                 {
-                    userAccount.Electricity.Tariff = new Tariff((string)e.tariff_code);
+                    userAccount.Electricity.Tariff = new TrackerTariff(httpClient, (string)e.tariff_code);
                 }
             }
 
@@ -99,7 +99,7 @@ namespace Octo
             {
                 if (g.valid_to == null)
                 {
-                    userAccount.Gas.Tariff = new Tariff((string)g.tariff_code);
+                    userAccount.Gas.Tariff = new TrackerTariff(httpClient, (string)g.tariff_code);
                 }
             }
 
