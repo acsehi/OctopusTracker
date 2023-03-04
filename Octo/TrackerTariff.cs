@@ -13,7 +13,7 @@ namespace Octo
 
         private readonly IHttpClient httpClient;
 
-        public string Code {private set; get; }
+        public string Code { private set; get; }
 
         public Dictionary<DateTime, double> Rates { get; set; }
 
@@ -52,7 +52,7 @@ namespace Octo
                 }
             }
 
-            using (StreamWriter sr = new StreamWriter(this.Code+".json"))
+            using (StreamWriter sr = new StreamWriter(this.Code + ".json"))
             {
                 js.Serialize(sr, this);
             }

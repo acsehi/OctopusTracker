@@ -27,8 +27,6 @@ namespace Octo
 
         public async Task<bool> LoadRates(IHttpClient client)
         {
-            // this.Gas.Tariff = new TrackerTariff(client, this.Gas.Tariff.Code, "gas.json");
-            // this.Electricity.Tariff = new TrackerTariff(client, this.Electricity.Tariff.Code, "electricity.json");
             await this.Gas.Tariff.InitializeRates();
             await this.Electricity.Tariff.InitializeRates();
 
@@ -107,46 +105,10 @@ namespace Octo
 
             return userAccount;
         }
-        public async Task LoadUsage(IHttpClient httpClient)
+        public async Task LoadConsumption(IHttpClient httpClient)
         {
-            await UpdateElectricity(httpClient);
-            await UpdateGas(httpClient);
-        }
-
-        private async Task UpdateElectricity(IHttpClient httpClient)
-        {
-            var uri = $"https://api.octopus.energy/v1/electricity-meter-points/{this.Electricity.Meter.MeterPointNumber}/meters/{this.Electricity.Meter.Id}/consumption/?group_by=day";
-            var json = await httpClient.GetStringAsync(uri);
-            dynamic jsonDe = JsonConvert.DeserializeObject(json);
-
-
-            this.Electricity.Consumption = new Dictionary<DateTime, double>();
-
-            foreach (var item in jsonDe.results)
-            {
-                DateTime date = item.interval_start;
-                double value = item.consumption;
-
-                this.Electricity.Consumption.Add(date, value);
-            }
-        }
-
-        private async Task UpdateGas(IHttpClient httpClient)
-        {
-            var uri = $"https://api.octopus.energy/v1/gas-meter-points/{this.Gas.Meter.MeterPointNumber}/meters/{this.Gas.Meter.Id}/consumption/?group_by=day";
-            var json = await httpClient.GetStringAsync(uri);
-            dynamic jsonDe = JsonConvert.DeserializeObject(json);
-
-
-            this.Gas.Consumption = new Dictionary<DateTime, double>();
-
-            foreach (var item in jsonDe.results)
-            {
-                DateTime date = item.interval_start;
-                double value = item.consumption;
-
-                this.Gas.Consumption.Add(date, value);
-            }
+            this.Electricity.Consumption =  await Consumption.GetConsumption(httpClient, this.Electricity.Meter.MeterPointNumber, this.Electricity.Meter.Id, EnergyType.Electicity);
+            this.Gas.Consumption =  await Consumption.GetConsumption(httpClient, this.Gas.Meter.MeterPointNumber, this.Gas.Meter.Id, EnergyType.Gas);
         }
     }
 }

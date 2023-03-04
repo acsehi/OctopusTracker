@@ -3,34 +3,44 @@ using Octo;
 using OctoCmd;
 using System.Configuration;
 
+double cappedGasUnitCost = 10.5;
+double cappedElectricityUnitCost = 34;
+
 var appSettings = ConfigurationManager.AppSettings;
-
-
 var apiKey = appSettings["ApiKey"];
 var userId = appSettings["UserId"];
 
 var httpClient = new OctoHttpClient(apiKey);
 
-var account = Account.GetAccount(httpClient, userId, apiKey).ConfigureAwait(false).GetAwaiter().GetResult();
+var account = await Account.GetAccount(httpClient, userId, apiKey);
 await account.LoadRates(httpClient);
-await account.LoadUsage(httpClient);
+await account.LoadConsumption(httpClient);
 
 double gasCost = 0;
 double gasCost_flex = 0;
 int days = 0;
-
+double gasUnitCost = 0;
 foreach (var g in account.Gas.Consumption)
 {
-
     if (account.Gas.Tariff.Rates.ContainsKey(g.Key))
     {
-        gasCost += EnergyConverter.CubiCMeterTokwh(g.Value) * account.Gas.Tariff.Rates[g.Key];
-        gasCost_flex += EnergyConverter.CubiCMeterTokwh(g.Value) * 10.5;
-        days++;
+        gasUnitCost = account.Gas.Tariff.Rates[g.Key];
+
+    }
+    else if (gasUnitCost > 0)
+    {
+        Console.WriteLine(g.Key + " is using previous day's data");
+    }
+
+    if (gasUnitCost == 0)
+    {
+        Console.WriteLine(g.Key + " is skipped");
     }
     else
     {
-        Console.WriteLine(g.Key + " is dropped");
+        gasCost += EnergyConverter.CubiCMeterTokwh(g.Value) * gasUnitCost;
+        gasCost_flex += EnergyConverter.CubiCMeterTokwh(g.Value) * cappedGasUnitCost;
+        days++;
     }
 }
 
@@ -46,15 +56,28 @@ Console.WriteLine();
 double electricityCost = 0;
 double electricityCost_flex = 0;
 days = 0;
-
+double electricityUnitCost = 0;
 
 foreach (var e in account.Electricity.Consumption)
 {
-
     if (account.Electricity.Tariff.Rates.ContainsKey(e.Key))
     {
-        electricityCost += e.Value * account.Electricity.Tariff.Rates[e.Key];
-        electricityCost_flex += e.Value * 34.0;
+        electricityUnitCost = account.Electricity.Tariff.Rates[e.Key];
+
+    }
+    else if (electricityUnitCost > 0)
+    {
+        Console.WriteLine(e.Key + " is using previous day's data");
+    }
+
+    if (electricityUnitCost == 0)
+    {
+        Console.WriteLine(e.Key + " is skipped");
+    }
+    else
+    {
+        electricityCost += e.Value * electricityUnitCost;
+        electricityCost_flex += e.Value * cappedElectricityUnitCost;
         days++;
     }
 }
