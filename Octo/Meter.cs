@@ -7,7 +7,7 @@
         public string MeterPointNumber { get; set; }
     }
 
-    public enum EnergySource
+    public enum EnergyType
     {
         Gas,
         Electicity
