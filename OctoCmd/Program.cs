@@ -13,8 +13,6 @@ var userId = appSettings["UserId"];
 var httpClient = new OctoHttpClient(apiKey);
 
 var account = await Account.GetAccount(httpClient, userId, apiKey);
-await account.LoadRates(httpClient);
-await account.LoadConsumption(httpClient);
 
 double gasCost = 0;
 double gasCost_flex = 0;
