@@ -1,10 +1,20 @@
 ﻿using Newtonsoft.Json;
+using System.Runtime.CompilerServices;
 
 namespace Octo
 {
     public class Account
     {
-        public string Id { get; set; }
+
+        public Account(IHttpClient httpClient, string userId)
+        {
+            this.Id = userId;
+            this.httpClient = httpClient;
+        }
+
+        public string Id { get; private set; }
+
+        private readonly IHttpClient httpClient;
 
         public string Region
         {
@@ -24,14 +34,6 @@ namespace Octo
         public Energy Gas { get; set; } = new Energy();
         public Energy Electricity { get; set; } = new Energy();
 
-
-        public async Task<bool> LoadRates(IHttpClient client)
-        {
-            await this.Gas.Tariff.InitializeRates();
-            await this.Electricity.Tariff.InitializeRates();
-
-            return true;
-        }
 
         public void ToCSV(string Filename)
         {
@@ -67,10 +69,7 @@ namespace Octo
             var electicity = jsonDe.properties[0].electricity_meter_points[0];
             var gas = jsonDe.properties[0].gas_meter_points[0];
 
-            Account userAccount = new Account()
-            {
-                Id = userId,
-            };
+            Account userAccount = new Account(httpClient, userId);
 
             userAccount.Gas.Meter = new Meter
             {
@@ -101,14 +100,23 @@ namespace Octo
                 }
             }
 
-
+            await userAccount.LoadRates();
+            await userAccount.LoadConsumption();
 
             return userAccount;
         }
-        public async Task LoadConsumption(IHttpClient httpClient)
+        public async Task LoadConsumption()
         {
-            this.Electricity.Consumption =  await Consumption.GetConsumption(httpClient, this.Electricity.Meter.MeterPointNumber, this.Electricity.Meter.Id, EnergyType.Electicity);
-            this.Gas.Consumption =  await Consumption.GetConsumption(httpClient, this.Gas.Meter.MeterPointNumber, this.Gas.Meter.Id, EnergyType.Gas);
+            this.Electricity.Consumption = await Consumption.GetConsumption(this.httpClient, this.Electricity.Meter.MeterPointNumber, this.Electricity.Meter.Id, EnergyType.Electicity);
+            this.Gas.Consumption = await Consumption.GetConsumption(this.httpClient, this.Gas.Meter.MeterPointNumber, this.Gas.Meter.Id, EnergyType.Gas);
+        }
+
+        public async Task<bool> LoadRates()
+        {
+            await this.Gas.Tariff.InitializeRates();
+            await this.Electricity.Tariff.InitializeRates();
+
+            return true;
         }
     }
 }

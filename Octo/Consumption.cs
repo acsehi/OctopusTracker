@@ -22,6 +22,12 @@ namespace Octo
 
             var uri = $"https://api.octopus.energy/v1/{eUrl}/{meterPointNumber}/meters/{meterId}/consumption/?group_by=day";
             var json = await httpClient.GetStringAsync(uri);
+            
+            if (json == null)
+            {
+                return null;
+            }
+
             dynamic jsonDe = JsonConvert.DeserializeObject(json);
 
             var c = new Dictionary<DateTime, double>();

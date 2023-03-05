@@ -37,6 +37,11 @@ namespace Octo
 
             var json = await this.httpClient.GetStringAsync($"https://octopus.energy/api/v1/tracker/{this.Code}/daily/current/1/1/");
 
+            if (json == null)
+            {
+                return;
+            }
+
             dynamic jsonDe = JsonConvert.DeserializeObject(json);
 
             foreach (var period in jsonDe.periods)
