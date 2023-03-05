@@ -24,15 +24,6 @@ namespace Octo
         public Energy Gas { get; set; } = new Energy();
         public Energy Electricity { get; set; } = new Energy();
 
-
-        public async Task<bool> LoadRates(IHttpClient client)
-        {
-            await this.Gas.Tariff.InitializeRates();
-            await this.Electricity.Tariff.InitializeRates();
-
-            return true;
-        }
-
         public void ToCSV(string Filename)
         {
             using (StreamWriter sr = new StreamWriter(Filename))
@@ -101,14 +92,19 @@ namespace Octo
                 }
             }
 
-
-
             return userAccount;
         }
-        public async Task LoadConsumption(IHttpClient httpClient)
+        private async Task LoadConsumption(IHttpClient httpClient)
         {
             this.Electricity.Consumption =  await Consumption.GetConsumption(httpClient, this.Electricity.Meter.MeterPointNumber, this.Electricity.Meter.Id, EnergyType.Electicity);
             this.Gas.Consumption =  await Consumption.GetConsumption(httpClient, this.Gas.Meter.MeterPointNumber, this.Gas.Meter.Id, EnergyType.Gas);
         }
+
+        private async Task LoadRates(IHttpClient client)
+        {
+            await this.Gas.Tariff.InitializeRates();
+            await this.Electricity.Tariff.InitializeRates();
+        }
+
     }
 }
