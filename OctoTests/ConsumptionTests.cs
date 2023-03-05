@@ -18,9 +18,9 @@ namespace OctoTests
             var x = await Consumption.GetConsumption(client.Object, "meterPointNumber", "meterId", EnergyType.Electicity);            
 
 
-            Assert.AreEqual("01/03/2023", x.Rates.First().Key.ToShortDateString());
-            Assert.AreEqual("0.1", x.Rates.First().Value.ToString());
-            client.Verify(x => x.GetStringAsync("https://octopus.energy/api/v1/tracker/G-1R-SILVER-FLEX-22-11-25-H/daily/current/1/1/"));
+            Assert.AreEqual("03/04/2023", x.First().Key.ToString("MM/dd/yyyy"));
+            Assert.AreEqual("0.1", x.First().Value.ToString());
+            client.Verify(x => x.GetStringAsync("https://api.octopus.energy/v1/electricity-meter-points/meterPointNumber/meters/meterId/consumption/?group_by=day"));
         }
     }
 }

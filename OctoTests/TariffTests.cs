@@ -20,7 +20,7 @@ namespace OctoTests
             await x.InitializeRates();
 
             Assert.AreEqual(tariffCode, x.Code);
-            Assert.AreEqual("01/02/2023", x.Rates.First().Key.ToShortDateString());
+            Assert.AreEqual("02/01/2023", x.Rates.First().Key.ToString("MM/dd/yyyy"));
             Assert.AreEqual("6.972", x.Rates.First().Value.ToString());
             Assert.AreEqual("7.098", x.Rates.Skip(1).First().Value.ToString());            
             client.Verify(x => x.GetStringAsync("https://octopus.energy/api/v1/tracker/G-1R-SILVER-FLEX-22-11-25-H/daily/current/1/1/"));

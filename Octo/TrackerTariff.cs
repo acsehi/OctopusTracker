@@ -15,7 +15,7 @@ namespace Octo
 
         public string Code { private set; get; }
 
-        public Dictionary<DateTime, double> Rates { get; set; }
+        public Dictionary<DateTime, double> Rates { set; get; }
 
         public async Task InitializeRates()
         {

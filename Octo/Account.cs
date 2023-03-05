@@ -34,7 +34,6 @@ namespace Octo
         public Energy Gas { get; set; } = new Energy();
         public Energy Electricity { get; set; } = new Energy();
 
-
         public void ToCSV(string Filename)
         {
             using (StreamWriter sr = new StreamWriter(Filename))
