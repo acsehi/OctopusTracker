@@ -1,8 +1,6 @@
-﻿using Octo;
-
-namespace OctoCmd
+﻿namespace Octo
 {
-    internal class OctoHttpClient : IHttpClient
+    public class OctoHttpClient : IHttpClient
     {
 
         private string apiKey;
