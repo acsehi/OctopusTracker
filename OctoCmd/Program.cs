@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Octo;
-using OctoCmd;
 using System.Configuration;
 
 double cappedGasUnitCost = 10.5;
