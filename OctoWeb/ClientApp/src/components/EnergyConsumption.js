@@ -51,8 +51,8 @@ export class EnergyConsumption extends Component {
     );
   }
 
-    async populateEnergyUsageData () {
-    const response = await fetch('energyusage');
+    async populateEnergyUsageData() {    
+    const response = await fetch('energyusage?userId=a&apiKep=b');
     const data = await response.json();
     this.setState({ energyUsage: data, loading: false });
   }

@@ -2,8 +2,8 @@
 using Octo;
 using System.Configuration;
 
-double cappedGasUnitCost = 10.5;
-double cappedElectricityUnitCost = 34;
+double cappedGasUnitCost = 10.46;
+double cappedElectricityUnitCost = 34.23;
 
 var appSettings = ConfigurationManager.AppSettings;
 var apiKey = appSettings["ApiKey"];
