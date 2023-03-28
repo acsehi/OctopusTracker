@@ -12,3 +12,12 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+label {
+    display: block;
+    font: 0.9rem 'Fira Sans', sans-serif;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}

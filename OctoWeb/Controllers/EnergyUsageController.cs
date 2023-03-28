@@ -19,6 +19,11 @@ namespace OctoWeb.Controllers
             _config = config;
 
         }
+        [HttpGet]
+        public async Task<IEnumerable<EnergyUsage>> Get(string userId, string apiKey)
+        {
+            return await FetchUsage(userId, apiKey);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<EnergyUsage>> Get()
@@ -27,6 +32,11 @@ namespace OctoWeb.Controllers
             var userId = this._config.GetValue<string>("OctoConfiguration:UserId");
             var apiKey = this._config.GetValue<string>("OctoConfiguration:APIKey");
 
+            return await FetchUsage(userId, apiKey);
+        }
+
+        private static async Task<IEnumerable<EnergyUsage>> FetchUsage(string userId, string apiKey)
+        {
             var httpClient = new OctoHttpClient(apiKey);
             var account = await Account.GetAccount(httpClient, userId, apiKey);
 
